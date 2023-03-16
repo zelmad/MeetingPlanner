@@ -16,4 +16,8 @@ Etapes :
     - Ajouter les Testes unitaires partiellement (pas tous les scénarios possible) pour la partie Resource et service.
     - Pusher le code vers github.
 
+Pour acceder a la BD et la documentation swagger :
 
+	- Lancer l'application et puis tapper les liens suivants :
+		- BD : localhost:8080/console (datasource.url : jdbc:h2:mem:meetingPlanner, username : meetingPlanner, password : meetingPlanner)
+		- swagger : localhost:8080/swagger-ui.html# 
